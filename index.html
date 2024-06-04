@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>彈跳球遊戲</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border;
+      }
+      #myCanvas {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="1000px" height="600px"></canvas>
+    <!-- 添加音效和背景音樂文件 -->
+    <audio id="backgroundMusic" src="background-music.mp3" loop></audio>
+    <audio id="brickSound" src="./金幣音效.mp3"></audio>
+    <audio id="paddleSound" src="./板子音效.mp3"></audio>
+    <script src="./app.js"></script>
+  </body>
+</html>
